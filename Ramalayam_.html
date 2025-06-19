@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="te">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>శ్రీ వీరభద్రస్వామి దేవస్థానం</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Segoe UI', sans-serif; line-height: 1.6; background: #fffaf0; color: #333; }
+    header {
+      background: url('temple-bg.jpg') no-repeat center center/cover;
+      color: white; text-align: center; padding: 100px 20px;
+    }
+    nav {
+      background: #f57c00; display: flex; justify-content: center; flex-wrap: wrap;
+    }
+    nav a {
+      color: white; padding: 15px 20px; text-decoration: none; font-weight: bold;
+    }
+    nav a:hover { background: #e65100; }
+    section { padding: 40px 20px; }
+    .home, .about, .events, .gallery, .contact { background: #fff; margin: 10px 0; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+    .gallery-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px; }
+    .gallery-grid img { width: 100%; border-radius: 8px; transition: transform 0.3s; }
+    .gallery-grid img:hover { transform: scale(1.05); }
+    form { display: flex; flex-direction: column; gap: 10px; max-width: 400px; margin: auto; }
+    input, textarea { padding: 10px; border: 1px solid #ccc; border-radius: 5px; }
+    button { background: #d4af37; color: white; border: none; padding: 10px; border-radius: 5px; font-weight: bold; cursor: pointer; }
+    button:hover { background: #b8860b; }
+    footer { background: #f57c00; color: white; text-align: center; padding: 20px; }
+    @media (max-width: 600px) {
+      header { padding: 60px 10px; }
+      nav a { padding: 10px; font-size: 14px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>శ్రీ వీరభద్రస్వామి దేవస్థానం</h1>
+    <p>మా పవిత్ర దేవస్థానానికి స్వాగతం</p>
+  </header>
+
+  <nav>
+    <a href="#home">హోం</a>
+    <a href="#about">గురించి</a>
+    <a href="#events">ఈవెంట్లు</a>
+    <a href="#gallery">గ్యాలరీ</a>
+    <a href="#contact">సంప్రదించండి</a>
+  </nav>
+
+  <section id="home" class="home">
+    <h2>స్వాగతం భక్తులారా</h2>
+    <p>మన ఆలయంలో శాంతి మరియు ఆధ్యాత్మికతను అనుభవించండి. రాబోయే <strong>శ్రీ వీరభద్ర స్వామి జాతర</strong>కు 25వ జూన్ న పాల్గొనండి.</p>
+  </section>
+
+  <section id="about" class="about">
+    <h2>మా ఆలయం గురించి</h2>
+    <p>ఈ ఆలయానికి 200 ఏళ్ల చరిత్ర ఉంది. ప్రకృతి సౌందర్యంతో నిండి ఉన్న ఈ స్థలం ఆధ్యాత్మికులను ఆకర్షించే పవిత్రత కలిగిన ప్రదేశం.</p>
+    <p><strong>ప్రాంతం:</strong> గోదావరి నది సమీపంలో, రాజమండ్రి జిల్లా, ఆంధ్ర ప్రదేశ్.</p>
+    <img src="deity.jpg" alt="దేవుని చిత్రం" style="width:100%; max-width:500px; display:block; margin:auto; border-radius:10px;">
+  </section>
+
+  <section id="events" class="events">
+    <h2>రాబోయే ఈవెంట్లు</h2>
+    <ul>
+      <li><strong>25 జూన్:</strong> శ్రీ వీరభద్ర స్వామి జాతర - ఉదయం 6 గంటల నుండి</li>
+      <li><strong>ప్రతి సోమవారం:</strong> రుద్రాభిషేకం - ఉదయం 7 గంటలకు</li>
+      <li><strong>14 ఆగస్టు:</strong> శ్రావణ పౌర్ణమి ప్రత్యేక పూజ - ఉదయం 8 గంటలకు</li>
+    </ul>
+  </section>
+
+  <section id="gallery" class="gallery">
+    <h2>గ్యాలరీ</h2>
+    <div class="gallery-grid">
+      <img src="gallery1.jpg" alt="ఆలయం చిత్రం 1">
+      <img src="gallery2.jpg" alt="ఆలయం చిత్రం 2">
+      <img src="gallery3.jpg" alt="ఆలయం చిత్రం 3">
+      <img src="gallery4.jpg" alt="ఆలయం చిత్రం 4">
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>మమ్మల్ని సంప్రదించండి</h2>
+    <form>
+      <input type="text" placeholder="మీ పేరు" required>
+      <input type="tel" placeholder="మొబైల్ నంబర్" required>
+      <textarea rows="4" placeholder="మీ సందేశం"></textarea>
+      <button type="submit">పంపించండి</button>
+    </form>
+    <p style="text-align:center; margin-top:20px;">
+      📍 ఆలయం చిరునామా: శ్రీ వీరభద్ర స్వామి దేవస్థానం, రాజమండ్రి, ఆంధ్ర ప్రదేశ్<br>
+      📞 ఫోన్/వాట్సాప్: <a href="tel:+919876543210">+91 98765 43210</a>
+    </p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 శ్రీ వీరభద్రస్వామి దేవస్థానం. హక్కులన్నీ రిజర్వ్ చేయబడ్డాయి.</p>
+  </footer>
+
+  <script>
+    // animation
+    document.querySelectorAll('section').forEach(section => {
+      section.style.opacity = 0;
+      window.addEventListener('scroll', () => {
+        const rect = section.getBoundingClientRect();
+        if (rect.top < window.innerHeight - 100) {
+          section.style.transition = 'opacity 1s';
+          section.style.opacity = 1;
+        }
+      });
+    });
+  </script>
+</body>
+</html>
